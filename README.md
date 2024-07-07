@@ -393,6 +393,24 @@ python ../../../src/TensorflowUNetTiledInferencer.py ./train_eval_infer_aug.conf
 <br>
 <!--
   -->
+<b>Comparison of Non-tiled inferred mask and Tiled-Inferred mask</b><br>
+As shown below, the tiled-inferred-mask is clearer and better than the non-tiled-inferred-mask.<br>
+<br>
+<table>
+<tr>
+<th>Mask (ground_truth)</th>
+
+<th>Non-tiled-inferred-mask</th>
+<th>Tiled-inferred-mask</th>
+</tr>
+<tr>
+<td><img src="./projects/TensorflowSlightlyFlexibleUNet/MoNuSeg/mini_test/masks/TCGA-AC-A2FO-01A-01-TS1.jpg" width="320" height="auto"></td>
+
+<td><img src="./projects/TensorflowSlightlyFlexibleUNet/MoNuSeg/mini_test_output/TCGA-AC-A2FO-01A-01-TS1.jpg" width="320" height="auto"></td>
+<td><img src="./projects/TensorflowSlightlyFlexibleUNet/MoNuSeg/mini_test_output_tiled/TCGA-AC-A2FO-01A-01-TS1.jpg" width="320" height="auto"></td>
+</tr>
+</table>
+<br>
 
 <h3>
 References
