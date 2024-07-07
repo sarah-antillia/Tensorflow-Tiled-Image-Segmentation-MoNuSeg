@@ -291,10 +291,13 @@ This bat file simply runs the following command.
 <pre>
 python ../../../src/TensorflowUNetEvaluator.py ./train_eval_infer_aug.config
 </pre>
+<!--
 Evaluation console output:<br>
 <img src="./projects/TensorflowSlightlyFlexibleUNet/MoNuSeg/asset/evaluate_console_output_at_epoch_76.png" width="720" height="auto">
 <br><br>
+-->
 <a href="./projects/TensorflowSlightlyFlexibleUNet/MoNuSeg/evaluation.csv">evaluation.csv</a><br>
+
 The loss (bce_dice_loss) score for this test dataset is not so low, and accuracy not so heigh as shown below.<br>
 <pre>
 loss,0.2252
