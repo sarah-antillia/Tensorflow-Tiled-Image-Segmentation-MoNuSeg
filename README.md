@@ -19,10 +19,10 @@ Please see also <a href="https://github.com/sarah-antillia/ImageMask-Dataset-MoN
 In this experiment, we employed the following strategy:<br>
 <b>
 <br>
-1. We trained and validated a TensorFlow UNet model using the Tiled-Skin-Cancer-ImageMask-Dataset, which was tiledly-split to 512x512
+1. We trained and validated a TensorFlow UNet model using the Tiled-MoNuSeg-ImageMask-Dataset, which was tiledly-splitted to 512x512
  and reduced to 512x512 image and mask dataset.<br>
-2. We applied the Tiled-Image Segmentation inference method to predict the skin-cancer regions for the test images 
-with a resolution of 4K or 6K pixels. 
+2. We applied the Tiled-Image Segmentation inference method to predict the nuclei regions for the test images 
+with a resolution of 1K pixels. 
 <br><br>
 </b>  
 Please note that Tiled-MoNuSeg-ImageMask-Dataset-M1 contains two types of images and masks:
