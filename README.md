@@ -25,9 +25,9 @@ In this experiment, we employed the following strategy:<br>
 with a resolution of 1K pixels. 
 <br><br>
 </b>  
-Please note that Tiled-MoNuSeg-ImageMask-Dataset-M1 contains two types of images and masks:
-1. Tiledly-splitted to 512x512 image and mask files.
-2. Size-reduced to 512x512 image and mask files.
+Please note that Tiled-MoNuSeg-ImageMask-Dataset-M1 contains two types of images and masks:<br>
+1. Tiledly-splitted to 512x512 image and mask files.<br>
+2. Size-reduced to 512x512 image and mask files.<br>
 Namely, this is a mixed set of Tiled and Non-Tiled ImageMask Datasets.
 
 <hr>
