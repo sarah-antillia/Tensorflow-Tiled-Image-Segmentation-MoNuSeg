@@ -141,7 +141,7 @@ Please move to ./projects/MoNuSeg and run the following bat file.<br>
 <pre>
 >python ../../../src/TensorflowUNetTrainer.py ./train_eval_infer.config
 </pre>
-<!-- 
+
 <pre>
 ; train_eval_infer.config
 ; 2024/07/06 (C) antillia.com
@@ -232,7 +232,6 @@ blur_size = (3,3)
 binarize  = False
 threshold = 127
 </pre>
--->
 
 In the configuration file above, we added the following parameters to enable <b>epoch_change_infer</b>
 and <b>epoch_change_tiledinfer</b> 
