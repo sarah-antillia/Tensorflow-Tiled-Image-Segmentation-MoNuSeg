@@ -141,6 +141,7 @@ Please move to ./projects/MoNuSeg and run the following bat file.<br>
 <pre>
 >python ../../../src/TensorflowUNetTrainer.py ./train_eval_infer.config
 </pre>
+<!-- 
 <pre>
 ; train_eval_infer.config
 ; 2024/07/06 (C) antillia.com
@@ -231,7 +232,9 @@ blur_size = (3,3)
 binarize  = False
 threshold = 127
 </pre>
-In this configuration file above, we added the following parameters to enable <b>epoch_change_infer</b>
+-->
+
+In the configuration file above, we added the following parameters to enable <b>epoch_change_infer</b>
 and <b>epoch_change_tiledinfer</b> 
  callbacks in [train] section.<br>
 <pre>
@@ -262,9 +265,11 @@ By using these callbacks, on every epoch_change, the inference procedures can be
 <img src="./projects/TensorflowSlightlyFlexibleUNet/MoNuSeg/asset/epoch_change_tiledinfer.png" width="1024" height="auto"><br>
 <br>
 <br>
-The training process has just been stopped at epoch 76 by EarlyStopping Callback as shown below.<br><br>
+The training process has just been stopped at epoch 76 by EarlyStopping Callback.
+<!-- as shown below.<br><br>
 <img src="./projects/TensorflowSlightlyFlexibleUNet/MoNuSeg/asset/train_console_output_at_epoch_76.png" width="720" height="auto"><br>
 <br>
+-->
 <br>
 <a href="./projects/TensorflowSlightlyFlexibleUNet/MoNuSeg/eval/train_metrics.csv">train_metrics.csv</a><br>
 <img src="./projects/TensorflowSlightlyFlexibleUNet/MoNuSeg/eval/train_metrics.png" width="520" height="auto"><br>
